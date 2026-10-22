@@ -8,3 +8,7 @@ DATA_PATH = os.path.join(
     "dataset",
     "placement_predict_50k Dataset.csv"
 )
+
+CHART_DIR = os.path.join(BASE_DIR, "static", "images")
+os.makedirs(CHART_DIR, exist_ok=True)
+
